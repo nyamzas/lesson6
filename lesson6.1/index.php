@@ -36,7 +36,7 @@
         }
         --Warning: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in C:\xampp\htdocs\lesson6.1\index.php on line 34
         -- Array ( ) 1
-        
+        -- выходит ошибка. Что я не так указал?
         print_r ($array_result) ;
         print_r(mysqli_error($link));
         print_r(mysqli_affected_rows($link));
